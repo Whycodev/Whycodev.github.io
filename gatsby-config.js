@@ -9,10 +9,10 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `Whycodev 개발 블로그`,
+    description: `나만의 개발 블로그를 꾸며보자.`,
+    author: `Whycodev`,
+    siteUrl: `https://Whycodev.github.io/`,
   },
   plugins: [
     {
@@ -40,6 +40,13 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`
+    `gatsby-plugin-sharp`,
+    {
+      resolve: 'gatsby-plugin-canonical-urls',
+      options: {
+        siteUrl: 'https://Whycodev.github.io/',
+        stripQueryString: true,
+      },
+    },
   ],
 }
