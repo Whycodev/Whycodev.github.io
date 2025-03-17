@@ -42,7 +42,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
-      resolve: 'gatsby-plugin-canonical-urls',
+      resolve: 'gatsby-plugin-canonical-urls', // 중복 콘텐츠 문제를 방지하기 위한 URL [SEO 최적화를 위한 필수 플러그인]
       options: {
         siteUrl: 'https://Whycodev.github.io/',
         stripQueryString: true,
