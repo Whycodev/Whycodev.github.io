@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_starter_default=self.webpackChunkgatsby_starter_default||[]).push([[245],{907:function(t,e,r){r.r(e),r.d(e,{default:function(){return u}});var n=r(159);var a=function(t){let{text:e}=t;return n.createElement("div",null,e)};var u=function(){return n.createElement(a,{text:"Whycodev's Blog 개발 중입니다. Gatsby를 활용하여 작업중입니다."})}}}]);
+//# sourceMappingURL=component---src-pages-index-tsx-d0ded0368988a3c65549.js.map
