@@ -7,15 +7,16 @@
   "dependencies": {
     "gatsby": "^5.14.1",
     "gatsby-plugin-image": "^3.14.0",
-    "gatsby-plugin-manifest": "^5.14.0",
     "gatsby-plugin-sharp": "^5.14.0",
+    "gatsby-plugin-typescript": "^5.14.0",
     "gatsby-source-filesystem": "^5.14.0",
     "gatsby-transformer-sharp": "^5.14.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "prettier": "^2.8.8"
+    "prettier": "^2.8.8",
+    "typescript": "^5.8.2"
   },
   "keywords": [
     "gatsby"
